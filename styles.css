@@ -55,11 +55,11 @@
 
 @font-face {
     font-family: 'Minecraftia';
-    src: url('../fonts/Minecraftia-Regular.ttf') format('truetype');
+    src: url('static/fonts/Minecraftia-Regular.ttf') format('truetype');
 }
 
 body {
-    background: linear-gradient(180deg,#000000,#0c0c0eda,#000000e0), url(../img/stone.webp) center repeat;
+    background: linear-gradient(180deg,#000000,#0c0c0eda,#000000e0), url(static/img/stone.webp) center repeat;
     background-size: 8vw;
     box-shadow: inset 0 0 10px 5px #00000093;
     z-index: -999;
@@ -113,7 +113,7 @@ h1 {
     position: absolute;
     inset: 0;
     height: 100vh;
-    background: linear-gradient(0deg,rgba(255, 255, 255, 0),rgb(0, 0, 0)), url('../img/background.png') center/cover;
+    background: linear-gradient(0deg,rgba(255, 255, 255, 0),rgb(0, 0, 0)), url('static/img/background.png') center/cover;
     filter: blur(5px) brightness(0.4);
     z-index: -2;
     transition: all 0.3s ease;
@@ -166,7 +166,7 @@ h1 {
     height: 20px;
     width: 200px;
 
-    background: url('../img/button.webp') 0 -20px no-repeat;
+    background: url('static/img/button.webp') 0 -20px no-repeat;
 
     font-family: 'Minecraftia', sans-serif;
     font-size: 10px; /* Используем явные пиксели вместо em */
@@ -234,7 +234,7 @@ h1 {
     position: relative;
     
     /* Внешний вид */
-    background: url('../img/button.webp') 0 -20px no-repeat;
+    background: url('static/img/button.webp') 0 -20px no-repeat;
     border: none;
     
     /* Текст */
